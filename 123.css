@@ -1,0 +1,52 @@
+ody{
+    background-color: #243642;
+    color: white;
+}
+.nav{
+    background-color: #243642;
+    color: #E2F1E7;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 30px;
+    justify-self:flex-start;
+}
+.navBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#navContent{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px;
+    justify-self: center;
+    transition: ease-in-out 0.1s;
+}
+
+#navContent:hover{
+    text-decoration: red underline;
+    font-weight: 900;
+    font-size: 1.65rem;
+    color: rgb(255, 255, 255);
+}
+
+.home{
+    background-color: #387478;
+    background-image: linear-gradient(0,0,20) ;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+
+
